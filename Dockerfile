@@ -1,6 +1,6 @@
 # This should be removed in favor of the base-ruby:3.14. Will have a follow up story for getting that pipeline working
-ARG BASE_RUBY_IMAGE_TAG="3.0.4-alpine3.16"
-ARG NODE_VERSION="16.20.0-r0"
+ARG BASE_RUBY_IMAGE_TAG="3.0.6-alpine3.16"
+ARG NODE_VERSION="16.20.1-r0"
 ARG FFMPEG_LIBS_VERSION="5.0.3-r0"
 ARG IMAGE_ENV="production"
 ARG UID="502"
